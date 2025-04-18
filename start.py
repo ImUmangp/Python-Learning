@@ -82,3 +82,8 @@ print(numbers[-3:])  # Output: [4, 5, 6] (last three elements)
 print(numbers[::2])  # Output: [1, 3, 5] (every second element)
 print(numbers[::-1])  # Output: [6, 5, 4, 3, 2, 1] (reversed list)
 """
+num=1
+if(num>2):
+    print("Number is greater than 2")
+else:
+    print("Number is less than or equal to 2")
