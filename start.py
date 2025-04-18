@@ -48,7 +48,7 @@ odd_numbers(1,10)
 #Output:
 #1, 3, 5, 7, 9,
 """
-
+"""
 #Logic to hind comma at the end of the last number
 def odd_numbers(start, end):
     for i in range(start, end + 1):
@@ -59,3 +59,26 @@ def odd_numbers(start, end):
                 print(i, end=",")
     print()
 odd_numbers(1, 10)
+"""
+"""
+print(type(5))
+print(type(5.0))
+print(type("5"))
+print(type(True))
+
+"""
+"""""
+numbers = [1, 2, 3, 4, 5]
+print(numbers[0])  # Output: 1
+numbers.append(6)  # Add 6 to the end of the list
+print(numbers)  # Output: [1, 2, 3, 4, 5, 6]
+print(numbers[0:3])  # Output: [1, 2, 3]
+print(numbers[1:4])  # Output: [2, 3, 4]    
+print(numbers[2:])  # Output: [3, 4, 5, 6]
+print(numbers[:3])  # Output: [1, 2, 3]
+print(numbers[-1])  # Output: 6 (last element)
+print(numbers[-2])  # Output: 5 (second last element)
+print(numbers[-3:])  # Output: [4, 5, 6] (last three elements)
+print(numbers[::2])  # Output: [1, 3, 5] (every second element)
+print(numbers[::-1])  # Output: [6, 5, 4, 3, 2, 1] (reversed list)
+"""
